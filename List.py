@@ -7,4 +7,5 @@ my_list.insert(1,15)
 my_list.extend([50,60,70])
 my_list.remove(70)
 my_list.sort
-my_list.index(30)
+index=my_list.index(30)
+print(index)
