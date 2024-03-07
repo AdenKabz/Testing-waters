@@ -50,11 +50,11 @@ void main(){
 //obtaining first element of a list
 dynamic getFirstElement(List myList){
  if (myList.isNotEmpty){
-   return myList[0];
+   return myList.first;
  }else{
    return null;
  }
-  }
+  };
 void main(){
   fruitList=["orange","apple","watermelon","pineapple"];
   result=getFirstElement(fruitList);
